@@ -1,0 +1,9 @@
+entity_side_cnn 0
+training_part_size 25000
+context_sentence_len 50
+word_vec_file /media/dhl/Data/el/word2vec/wiki_vectors.jbin
+entity_rep_indices_file /media/dhl/Data/el/vec_rep/wid_entity_rep_wiki50_indices_with_keywords_fixed_len_0kw.bin
+entity_rep_vec_file /media/dhl/Data/el/vec_rep/wid_entity_rep_wiki50_cat.bin
+train_data_file /media/dhl/Data/el/vec_rep/wiki_train_word_vec_indices_wiki50.td
+val_data_file /media/dhl/Data/el/vec_rep/tac_2014_train_gold_second.bin
+test_data_file /media/dhl/Data/el/vec_rep/tac_2014_eval_gold_second.bin

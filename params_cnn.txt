@@ -1,0 +1,9 @@
+entity_side_cnn 1
+training_part_size 25000
+context_sentence_len 50
+word_vec_file /home/dhl/data/word2vec/wiki_vectors.jbin
+entity_rep_indices_file /home/dhl/data/vec_rep/wid_entity_rep_wiki50_indices_with_keywords_fixed_len.bin
+entity_rep_vec_file /home/dhl/data/vec_rep/wid_entity_rep_wiki50_cat.bin
+train_data_file /home/dhl/data/vec_rep/wiki_train_word_vec_indices_wiki50.td
+val_data_file /home/dhl/data/vec_rep/tac_2014_training.bin
+test_data_file /home/dhl/data/vec_rep/tac_2014_eval.bin
