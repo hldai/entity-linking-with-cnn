@@ -176,6 +176,7 @@ class HiddenLayer(object):
         self.params = [self.W, self.b] if use_bias else [self.W]
 
 
+# CNN pooling
 class LeNetConvPoolLayer(object):
     def __init__(self, rng, input, filter_shape, image_shape, poolsize=(2, 2), non_linear='tanh',
                  W=None, b=None):
